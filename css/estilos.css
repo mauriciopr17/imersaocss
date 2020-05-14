@@ -1,0 +1,55 @@
+/* Aula inicial :D */
+
+/*contúedo da página*/
+body{
+    background: lightblue;
+    background-size: auto 100vh;
+    /*background-image:url('');*/
+    font-family: Arial;
+    height: 100vh;
+  }
+  
+  /*corresponde ao class no html*/
+  .menu{
+    background-color: white;
+  }
+  
+  .menu ul{
+    display: flex; /*força tods virarem coluna*/
+    justify-content: space-between;
+  }
+  
+  .menu li {
+    list-style: none;
+  }
+  
+  /*#menu -> indica o id com nome menu
+  evitar usar os ids #*/
+  
+  /*link*/
+  a{
+    color:  teal;
+    text-decoration: none;
+  }
+  
+  a:hover{
+    text-decoration: underline;  
+  }
+  
+  li{
+    font-family: Verdana;
+  }
+  
+  /*todas li que estão dentro da classe menu, serão alteradas
+  da esquerd para direita
+  */
+  
+  .site-subtitle,
+  .site-title{
+    color: whitesmoke;
+    text-align: center;
+  }
+  
+  .site-subtitle{
+    font-style: italic;
+  }
